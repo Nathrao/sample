@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/customerBillRatingService/v1/productRate",
+       "bodyPatterns": [{
+      "matchesJsonPath": "$.pricingProductDetails.[?(@.productId == 'Product_58')]"
+    }
+    ]
+  },
+"response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "productRateResponse_Product_58.json"
+  }
+}
