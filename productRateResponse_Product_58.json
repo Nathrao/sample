@@ -1,0 +1,45 @@
+[
+	{
+		"productId": "Product_58",
+		"productRates": [
+			{
+				"id": "Price_11",
+				"version": "1.0",
+				"name": "5USDACTVCharge",
+				"description": "Mobile Combo Charges activation charge",
+				"priceType": "recurringCharge",
+				"recurringChargePeriodType": null,
+				"recurringChargePeriodLength": null,
+				"taxIncluded": "Excluded",
+				"rate": {
+					"taxIncludedAmount": null,
+					"dutyFreeAmount": {
+						"unit": "USD",
+						"value": 20
+					},
+					"percentage": 0,
+					"priceReduction": null,
+					"priceOverride": null,
+					"priceRecordId": "string",
+					"impactingPriceParameter": [
+						{
+							"type": "string",
+							"name": "ChangeType",
+							"value": "add product"
+						}
+					]
+				},
+				
+				"unitOfMeasure": null,
+				"rateValidity": {
+					"startDateTime": "2018-01-01T17:39:14.838Z",
+					"endDateTime": "2029-08-27T17:39:14.838Z"
+				},
+				"paymentTiming": "inArrear",
+				"revenueCode": "ACTVCHG",
+				"taxCode": "TX1",
+				"priceAlteration": null
+			}
+		]
+	}
+]

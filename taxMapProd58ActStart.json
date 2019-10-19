@@ -1,0 +1,21 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/tax/v1/calculateTax",
+		"bodyPatterns": [
+			{
+				"matchesJsonPath": "$.taxCalculationItem[:1].[?(@.id == 'Product_58_1')]"
+			},
+			{
+				"matchesJsonPath": "$.taxCalculationItem[:1].[?(@.effectiveDate == '2019-03-01T08:46:50.753Z')]"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"bodyFileName": "taxResponseProd58ActStart.json"
+	}
+}
